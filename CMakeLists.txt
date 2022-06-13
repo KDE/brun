@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(astro VERSION 1.0.0)
+project(maui-calculator VERSION 1.0.0)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 

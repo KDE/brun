@@ -13,11 +13,11 @@
 
 //Useful for setting quickly an app template
 #define ORG_NAME "Maui"
-#define PROJECT_NAME "Astro"
-#define COMPONENT_NAME "astro"
-#define PROJECT_DESCRIPTION "View and organize your calendar events."
+#define PROJECT_NAME "Calculator"
+#define COMPONENT_NAME "calculator"
+#define PROJECT_DESCRIPTION "Maui convergent calculator."
 #define PROJECT_YEAR "2022"
-#define PRODUCT_NAME "maui/astro"
+#define PRODUCT_NAME "maui/calculator"
 #define PROJECT_PAGE "https://mauikit.org"
 #define REPORT_PAGE "https://invent.kde.org/maui/index-fm/-/issues"
 
