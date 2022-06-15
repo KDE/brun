@@ -37,7 +37,8 @@ int main(int argc, char *argv[])
     KAboutData about(QStringLiteral(COMPONENT_NAME), i18n(PROJECT_NAME), PROJECT_VERSION_STRING, i18n(PROJECT_DESCRIPTION),
                      KAboutLicense::LGPL_V3, QString("© %1-%2 %3 Development Team").arg(PROJECT_YEAR, QString::number(QDate::currentDate().year()), ORG_NAME), QString(GIT_BRANCH) + "/" + QString(GIT_COMMIT_HASH));
 
-    about.addAuthor(i18n("Camilo Higuita"), i18n("Developer"), QStringLiteral("milo.h@aol.com"));
+    about.addAuthor("Camilo Higuita", i18n("Developer"), QStringLiteral("milo.h@aol.com"));
+    about.addAuthor(i18n("Kalk Developers"), i18n("KDE"), QStringLiteral(""), QStringLiteral("invent.kde.org/plasma-mobile/kalk"));
 
     about.setHomepage(PROJECT_PAGE);
     about.setProductName(PRODUCT_NAME);
