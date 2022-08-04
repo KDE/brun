@@ -1,4 +1,4 @@
-# NX Software Center 
+# Maui Calculator
 
 Simple calculator application built with MauiKit.
 
