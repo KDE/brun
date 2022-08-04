@@ -30,6 +30,7 @@ $APT_COMMAND install -qy --no-install-recommends \
     libkf5kio-dev \
     libkf5notifications-dev \
     libkf5unitconversion-dev \
+    libmpfr-dev \
     libwayland-dev \
     lintian \
     qtbase5-dev \
