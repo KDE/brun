@@ -12,6 +12,7 @@ $APT_COMMAND install -qy --no-install-recommends \
     automake \
     autotools-dev \
     bison \
+    flex \
     build-essential \
     checkinstall \
     cmake \
