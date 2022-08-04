@@ -12,7 +12,6 @@ $APT_COMMAND install -qy --no-install-recommends \
     automake \
     autotools-dev \
     bison \
-    flex \
     build-essential \
     checkinstall \
     cmake \
@@ -20,6 +19,7 @@ $APT_COMMAND install -qy --no-install-recommends \
     devscripts \
     equivs \
     extra-cmake-modules \
+    flex \
     gettext \
     git \
     gnupg2 \
@@ -27,8 +27,6 @@ $APT_COMMAND install -qy --no-install-recommends \
     libkf5config-dev \
     libkf5coreaddons-dev \
     libkf5i18n-dev \
-    libkf5kio-dev \
-    libkf5notifications-dev \
     libkf5unitconversion-dev \
     libmpfr-dev \
     libwayland-dev \

@@ -65,7 +65,7 @@ checkinstall -D -y \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
 	--provides=maui-calculator \
-	--requires="libc6,libkf5coreaddons5,libkf5i18n5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5widgets5,libstdc++6,mauikit-git \(\>= 2.2.0+git\),mauikit-accounts-git \(\>= 2.2.0+git\),mauikit-filebrowsing-git \(\>= 2.2.0+git\),qml-module-qt-labs-platform" \
+	--requires="bison,flex,libc6,libkf5coreaddons5,libkf5i18n5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5sql5,libqt5widgets5,mauikit-accounts-git \(\>= 2.2.0+git\),mauikit-filebrowsing-git \(\>= 2.2.0+git\),mauikit-git \(\>= 2.2.0+git\)" \
 	--nodoc \
 	--strip=no \
 	--stripso=yes \
