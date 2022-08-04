@@ -11,6 +11,7 @@ $APT_COMMAND install -qy --no-install-recommends \
     appstream \
     automake \
     autotools-dev \
+    bison \
     build-essential \
     checkinstall \
     cmake \
