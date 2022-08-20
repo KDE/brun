@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(maui-calculator VERSION 1.0.0)
+project(brun VERSION 0.0.5)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 

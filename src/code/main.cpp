@@ -13,13 +13,13 @@
 
 //Useful for setting quickly an app template
 #define ORG_NAME "Maui"
-#define PROJECT_NAME "Calculator"
-#define COMPONENT_NAME "calculator"
+#define PROJECT_NAME "Brun"
+#define COMPONENT_NAME "brun"
 #define PROJECT_DESCRIPTION "Maui convergent calculator."
 #define PROJECT_YEAR "2022"
-#define PRODUCT_NAME "maui/calculator"
+#define PRODUCT_NAME "maui/brun"
 #define PROJECT_PAGE "https://mauikit.org"
-#define REPORT_PAGE "https://invent.kde.org/maui/index-fm/-/issues"
+#define REPORT_PAGE "https://invent.kde.org/maui/brun/-/issues"
 
 int main(int argc, char *argv[])
 {
