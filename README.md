@@ -1,4 +1,4 @@
-# Maui Calculator
+# Brun
 
 Simple calculator application built with MauiKit.
 

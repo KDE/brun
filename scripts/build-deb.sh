@@ -3,7 +3,6 @@
 set -x
 
 ### Update sources
-wget -qO /etc/apt/sources.list.d/neon-user-repo.list https://raw.githubusercontent.com/Nitrux/iso-tool/development/configs/files/sources.list.neon.user
 
 wget -qO /etc/apt/sources.list.d/nitrux-main-compat-repo.list https://raw.githubusercontent.com/Nitrux/iso-tool/development/configs/files/sources.list.nitrux
 
@@ -55,16 +54,16 @@ make -j$(nproc)
 checkinstall -D -y \
 	--install=no \
 	--fstrans=yes \
-	--pkgname=maui-calculator-git \
+	--pkgname=brun-git \
 	--pkgversion=$PACKAGE_VERSION \
 	--pkgarch=amd64 \
 	--pkgrelease="1" \
 	--pkglicense=LGPL-3 \
 	--pkggroup=utils \
-	--pkgsource=maui-calculator \
+	--pkgsource=brun \
 	--pakdir=. \
 	--maintainer=uri_herrera@nxos.org \
-	--provides=maui-calculator \
+	--provides=brun \
 	--requires="bison,flex,libc6,libkf5coreaddons5,libkf5i18n5,libqt5core5a,libqt5gui5,libqt5qml5,libqt5sql5,libqt5widgets5,mauikit-accounts-git \(\>= 2.2.0+git\),mauikit-filebrowsing-git \(\>= 2.2.0+git\),mauikit-git \(\>= 2.2.0+git\)" \
 	--nodoc \
 	--strip=no \
